@@ -2,8 +2,12 @@ import java.util.Arrays;
 
 class practice {
     // global variables
+    // strictlyIncrInMatrix
     private int count = 0;
     private int[] arr;
+
+    // N Queen Problems
+    private int countN = 0;
 
     public practice() {
 
@@ -46,5 +50,7 @@ class practice {
             return 1;
         return 0;
     }
+
+
 
 }
